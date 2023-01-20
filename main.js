@@ -40,8 +40,8 @@ class Map {
         const ceilingMat = new BABYLON.StandardMaterial("ceilingMat");
         const floorMat = new BABYLON.StandardMaterial("floorMat");
 
-        //wallMat.diffuseColor = new BABYLON.Color3(1, 1, 0.2);
-        wallMat.diffuseTexture = new BABYLON.Texture("https://static.wikia.nocookie.net/backrooms/images/d/d5/Wallpaper.png/revision/latest?cb=20220801114912");
+        wallMat.diffuseColor = new BABYLON.Color3(1, 1, 0.2);
+        //wallMat.diffuseTexture = new BABYLON.Texture("https://static.wikia.nocookie.net/backrooms/images/d/d5/Wallpaper.png/revision/latest?cb=20220801114912");
         ceilingMat.diffuseColor = new BABYLON.Color3(0.9, 0.9, 0.9);
         floorMat.diffuseColor = new BABYLON.Color3(0.588, 0.294, 0);
 
